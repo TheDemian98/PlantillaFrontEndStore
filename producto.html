@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA BELLS PRESENTS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header_logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion_enlace " href="index.html">TIENDA</a>
+        <a class="navegacion_enlace navegacion_enlace--activo"href="nosotros.html">NOSOTROS</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Camiseta React</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>
+                    Motor a cadenilla, lo mejor de lo mejor en cuanto a motores de cadenilla se trata
+                </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1" max="100">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+    
+
+    <footer class="footer">
+        <p class="footer__texto">BELLS PRESENTS - Todos los dereschos reservados 2002.</p>
+    </footer>
+    
+</body>
+</html>
